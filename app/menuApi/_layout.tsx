@@ -8,7 +8,7 @@ import 'react-native-reanimated';
 
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { Drawer } from 'expo-router/drawer';
+
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
