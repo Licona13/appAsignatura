@@ -28,11 +28,7 @@ export function LocationsScrollView(){
 
 const handleEndReached=() => {
     //si no hay pag sig o esta cargando no hacer nado en caso contrario incrementar pagina
-    {/*if(!data.info.next || loading ){
-        return;
-    }
-
-    setPage(page + 1);*/}
+   
 
     //forma 2 (es mas apropiada )
     if(data.info.next && !loading){
