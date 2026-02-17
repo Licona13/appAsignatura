@@ -37,7 +37,7 @@ export function HistoryLocationsView (){
     //para almacenar la instancia del mapa
     const mapRef = useRef(null);
 
-    const router = useRouter();
+    
 
    // Función para obtener ubicaciones de Firebase
    async function fetchLocations() {
