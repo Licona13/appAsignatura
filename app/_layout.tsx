@@ -17,7 +17,7 @@ import { NotesProvider } from '@/components/notes/notesContext';
 // Prevent splash screen from hiding early
 SplashScreen.preventAutoHideAsync();
 
-function LogoutButton({ onLogout }: { onLogout: () => void }) {
+function LogoutButton({ onLogout }: { readonly onLogout: () => void }) {
   return (
     <TouchableOpacity onPress={onLogout} style={{ marginRight: 15 }}>
       <Feather name="log-out" size={24} color="#8B4513" />
