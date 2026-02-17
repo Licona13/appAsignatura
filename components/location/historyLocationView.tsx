@@ -18,21 +18,7 @@ export function HistoryLocationsView (){
         const [locations, setLocations] = useState<{ latitude: number; longitude: number }[]>([]);
 
 
-    //Datos estaticos
-    /*const locations=[
-        {
-            latitude:18.5955558,
-            longitude: -98.4907685,
-        },
-        {
-        latitude:18.5955558,
-        longitude: -98.4907385,
-        },
-        {
-        latitude:18.5955558,
-        longitude: -98.4455641,
-        }
-    ]*/
+   
 
     //para almacenar la instancia del mapa
     const mapRef = useRef(null);
