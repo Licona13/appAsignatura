@@ -22,22 +22,7 @@ export function CharactersScrollView(){
 
     });
 
-const characters: Character[] = [
-    {
-        id:1,
-        name:"Rick Sanchez",
-        status:"Alive",
-        origin: {
-            name: "Tierra",},
 
-        location:{
-            name:"Tierra",
-        },
-        image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
-        species:"Human",
-
-    },
-];
     //para referenciar el flatlist
     const flatListRef = useRef(null);
 
