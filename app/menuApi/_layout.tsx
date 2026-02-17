@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 import 'react-native-reanimated';
 
 import { useColorScheme } from '@/hooks/useColorScheme';
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
+
 
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import Ionicons from '@expo/vector-icons/Ionicons';
