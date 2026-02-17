@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import PermissionsLayout from "./permissionLayout";
 import { getPermissionsAsync, PermissionResponse, requestPermissionsAsync } from "expo-contacts";
-//import * as Contacts from 'expo-contacts';
+
 
 export default function ContactsPermission() {
 
