@@ -4,7 +4,7 @@ import MapView, { Marker } from 'react-native-maps';
 
 import * as Location from 'expo-location';
 import { Link, router } from 'expo-router';
-import { useRouter } from 'expo-router';
+
 import { addDoc, collection } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 
