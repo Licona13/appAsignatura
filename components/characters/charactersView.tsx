@@ -22,21 +22,6 @@ export function CharactersView() {
 
     });
 
-    {/*const characters: Character[] = [
-        {
-            id: 1,
-            name: "Rick Sanchez",
-            status: "Alive",
-            origin: "Tierra",
-            location: {
-                name: "Tierra",
-            },
-            image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
-            species: "Human",
-
-        },
-    ];*/}
-
     const dataSource = new DataSource();
     //cda vez que cambie el numero de pag cargar personajes
     useEffect(() => {
