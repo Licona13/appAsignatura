@@ -3,7 +3,7 @@ import { StyleSheet,View } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 
 //para la conexion con firebase
-import { collection, addDoc, getDocs } from "firebase/firestore"; 
+import { collection, getDocs } from "firebase/firestore"; 
 import { db } from '@/lib/firebase';
 
 
