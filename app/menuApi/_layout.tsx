@@ -9,7 +9,7 @@ import 'react-native-reanimated';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
 
-import { IconSymbol } from '@/components/ui/IconSymbol';
+
 import Ionicons from '@expo/vector-icons/Ionicons';
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
