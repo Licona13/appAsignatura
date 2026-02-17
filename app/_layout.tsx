@@ -17,6 +17,15 @@ import { NotesProvider } from '@/components/notes/notesContext';
 // Prevent splash screen from hiding early
 SplashScreen.preventAutoHideAsync();
 
+function LogoutButton({ onLogout }: { onLogout: () => void }) {
+  return (
+    <TouchableOpacity onPress={onLogout} style={{ marginRight: 15 }}>
+      <Feather name="log-out" size={24} color="#8B4513" />
+    </TouchableOpacity>
+  );
+}
+
+
 function RootLayoutNav() {
   const colorScheme = useColorScheme();
   const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(null);
@@ -70,11 +79,8 @@ function RootLayoutNav() {
             drawerStyle: { backgroundColor: 'bisque' },
             drawerActiveTintColor: '#8B4513',
             drawerInactiveTintColor: '#333',
-            headerRight: () => (
-              <TouchableOpacity onPress={handleLogout} style={{ marginRight: 15 }}>
-                <Feather name="log-out" size={24} color="#8B4513" />
-              </TouchableOpacity>
-            ),
+            headerRight: () => <LogoutButton onLogout={handleLogout} />,
+
           }}
         >
           <Drawer.Screen name="login" options={{ drawerItemStyle: { display: "none" }, title: "Iniciar Sesión" }} />
