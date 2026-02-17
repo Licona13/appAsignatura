@@ -3,7 +3,7 @@ import { Button, Pressable, StyleSheet, Text, TouchableOpacity, View } from 'rea
 import MapView, { Marker } from 'react-native-maps';
 
 import * as Location from 'expo-location';
-import { Link, router } from 'expo-router';
+import { router } from 'expo-router';
 
 import { addDoc, collection } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
