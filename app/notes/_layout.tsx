@@ -38,7 +38,7 @@ export default function TabLayout() {
         name="listnotes"
         options={{
           title: 'Lista de notas',
-          tabBarIcon: ({ color }:{ color: string } ) => <Ionicons name="list" size={32} color="green" />
+          tabBarIcon: ({ color }:{ color: string } ) => <Ionicons name="list" size={32} color={color} />
           ,
         }}
       />
